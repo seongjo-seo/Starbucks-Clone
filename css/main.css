@@ -15,11 +15,9 @@ a{
 }
 
 /* position을 갖고 중앙 정렬 배치를 진행한다. */
-
 /* HEADER관련 css */
 header {
   background-color: royalblue;
-
 }
 
 /* inner 클래스 수정 */
@@ -42,33 +40,46 @@ header .logo{
   margin: auto;
   display: none;
 }
+
+
 header .sub-menu{
-  list-style: none;
+
 }
 
 header .sub-menu ul.menu {
+  list-style: none;
+  font-family: Arial, sans-serif;
   display: flex;
 }
 
 header .sub-menu ul.menu li {
-  
+  position: relative;
 }
 
-/* header .sub-menu ul.menu li::before {
+header .sub-menu ul.menu li::before {
   content: "";
   width : 1px;
   height: 12px;
-  background-color: #000;
+  background-color: #e5e5e5;
+  /* absolute와 fixed는 블럭으로 변경된다 */
   position: absolute;
-  top:0;
-  bottom:0;
+  top:0px;
+  bottom:0px;
   margin:auto;
-} */
+}
+
+
+header .sub-menu ul.menu li:first-child::before {
+  display: none;
+}
+
 
 header .sub-menu ul.menu li a {
-  background-color: red;
-  font-size: 12px;
+  font-size: 15px;
   padding: 11px, 16px;
+  /* 화면이 다른 부분이 존재해서 개인적으로 css를 수정함 */
+  margin-right: 25px;
+  margin-left: 25px;
   display: block;
   color: #656565;
 }
