@@ -112,6 +112,7 @@ header .sub-menu .search .material-icons {
 }
 header .sub-menu .search.focused .material-icons {
   opacity: 0;
+  
 }
 /* main 메뉴 */
 header .main-menu{
@@ -120,9 +121,10 @@ header .main-menu{
   right: 0;
   z-index: 1;
   display: flex;
+  word-spacing: 20px;
 }
 header .main-menu .item{
-  
+  /* padding : 100px; */
 }
 header .main-menu .item .item__name{
   padding: 10px 20px 34px 20px;
