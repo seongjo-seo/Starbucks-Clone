@@ -116,12 +116,13 @@ header .sub-menu .search.focused .material-icons {
 }
 /* main 메뉴 */
 header .main-menu{
+  display: flex;
+  /* padding :0;
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: 1;
-  display: flex;
-  word-spacing: 20px;
+  word-spacing: 20px; */
 }
 header .main-menu .item{
   /* padding : 100px; */
