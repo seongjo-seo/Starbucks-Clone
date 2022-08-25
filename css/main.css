@@ -137,5 +137,14 @@ header .main-menu .item:hover .item__name {
   border-radius: 6px 6px 0 0;
 }
 header .main-menu .item .item__contents {
-  
+  width: 100%;
+}
+
+header .main-menu .item .item__contents .contents__menu {
+  background-color: red;
+  height: 200px;
+}
+header .main-menu .item .item__contents .contents__texture {
+  background-color: orange;
+  height: 100px;
 }
